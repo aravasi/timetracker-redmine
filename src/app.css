@@ -1,0 +1,21 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+/* Questo file è dove importeresti Tailwind.
+  Quando usi `svelte-add tailwindcss`, questo file
+  verrà popolato automaticamente.
+*/
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Stili globali aggiuntivi, se necessari.
+  Per esempio, per un aspetto mobile più nativo:
+*/
+body {
+   -webkit-font-smoothing: antialiased;
+   -moz-osx-font-smoothing: grayscale;
+   overscroll-behavior: none;
+   /* Impedisce il "rimbalzo" su mobile */
+}
